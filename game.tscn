@@ -1,0 +1,2144 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://bird.tscn" type="PackedScene" id=2]
+[ext_resource path="res://game.gd" type="Script" id=3]
+[ext_resource path="res://doritos.tscn" type="PackedScene" id=4]
+[ext_resource path="res://truba.tscn" type="PackedScene" id=5]
+[ext_resource path="res://truba_fix.tscn" type="PackedScene" id=6]
+[ext_resource path="res://fon_3.png" type="Texture" id=7]
+[ext_resource path="res://zad.tscn" type="PackedScene" id=8]
+[ext_resource path="res://snoop.wav" type="AudioStream" id=9]
+[ext_resource path="res://ill.tscn" type="PackedScene" id=10]
+[ext_resource path="res://moun.tscn" type="PackedScene" id=11]
+[ext_resource path="res://sigar.tscn" type="PackedScene" id=12]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 1 ), null ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="game" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="zads" type="Node2D" parent="."]
+
+[node name="zad" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( -6.77795, 12.5977 )
+
+[node name="zad2" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 543.503, 12.8613 )
+
+[node name="zad4" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 1095.18, 12.5977 )
+
+[node name="zad3" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 1645.46, 12.5977 )
+
+[node name="zad8" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 2197.13, 12.5977 )
+
+[node name="zad7" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 2747.41, 12.5977 )
+
+[node name="zad6" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 3299.09, 12.5977 )
+
+[node name="zad5" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 3849.37, 12.5977 )
+
+[node name="zad16" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 4397.19, 12.5977 )
+
+[node name="zad15" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 4947.48, 12.5977 )
+
+[node name="zad14" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 5499.15, 12.5977 )
+
+[node name="zad13" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 6049.43, 12.5977 )
+
+[node name="zad12" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 6601.11, 12.5977 )
+
+[node name="zad11" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 7151.39, 12.5977 )
+
+[node name="zad10" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 7703.06, 12.5977 )
+
+[node name="zad9" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 8253.34, 12.5977 )
+
+[node name="zad32" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 8800.41, 12.5977 )
+
+[node name="zad31" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 9350.7, 12.5977 )
+
+[node name="zad30" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 9902.37, 12.5977 )
+
+[node name="zad29" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 10452.7, 12.5977 )
+
+[node name="zad28" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 11004.3, 12.5977 )
+
+[node name="zad27" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 11554.6, 12.5977 )
+
+[node name="zad26" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 12106.3, 12.5977 )
+
+[node name="zad25" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 12656.6, 12.5977 )
+
+[node name="zad24" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 13204.4, 12.5977 )
+
+[node name="zad23" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 13754.7, 12.5977 )
+
+[node name="zad22" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 14306.3, 12.5977 )
+
+[node name="zad21" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 14856.6, 12.5977 )
+
+[node name="zad20" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 15408.3, 12.5977 )
+
+[node name="zad19" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 15958.6, 12.5977 )
+
+[node name="zad18" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 16510.3, 12.5977 )
+
+[node name="zad17" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 17060.5, 12.5977 )
+
+[node name="zad64" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 17609, 12.5977 )
+
+[node name="zad63" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 18159.3, 12.8613 )
+
+[node name="zad62" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 18710.9, 12.5977 )
+
+[node name="zad61" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 19261.2, 12.5977 )
+
+[node name="zad60" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 19812.9, 12.5977 )
+
+[node name="zad59" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 20363.2, 12.5977 )
+
+[node name="zad58" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 20914.8, 12.5977 )
+
+[node name="zad57" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 21465.1, 12.5977 )
+
+[node name="zad56" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 22013, 12.5977 )
+
+[node name="zad55" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 22563.2, 12.5977 )
+
+[node name="zad54" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 23114.9, 12.5977 )
+
+[node name="zad53" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 23665.2, 12.5977 )
+
+[node name="zad52" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 24216.9, 12.5977 )
+
+[node name="zad51" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 24767.2, 12.5977 )
+
+[node name="zad50" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 25318.8, 12.5977 )
+
+[node name="zad49" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 25869.1, 12.5977 )
+
+[node name="zad48" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 26416.2, 12.5977 )
+
+[node name="zad47" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 26966.5, 12.5977 )
+
+[node name="zad46" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 27518.1, 12.5977 )
+
+[node name="zad45" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 28068.4, 12.5977 )
+
+[node name="zad44" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 28620.1, 12.5977 )
+
+[node name="zad43" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 29170.4, 12.5977 )
+
+[node name="zad42" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 29722, 12.5977 )
+
+[node name="zad41" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 30272.3, 12.5977 )
+
+[node name="zad40" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 30820.2, 12.5977 )
+
+[node name="zad39" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 31370.4, 12.5977 )
+
+[node name="zad38" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 31922.1, 12.5977 )
+
+[node name="zad37" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 32472.4, 12.5977 )
+
+[node name="zad36" parent="zads" instance=ExtResource( 8 )]
+position = Vector2( 33024.1, 12.5977 )
+
+[node name="trubas" type="Node2D" parent="."]
+position = Vector2( 714.115, 0 )
+
+[node name="truba" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 1870.03, 151.969 )
+rotation = 3.14159
+
+[node name="truba2" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 1877.24, 723.85 )
+rotation = -1.74846e-07
+
+[node name="truba4" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 2317.18, 75.1404 )
+rotation = 3.14159
+
+[node name="truba3" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 2320.82, 657.825 )
+rotation = -1.74846e-07
+
+[node name="truba6" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 2746.24, 198.734 )
+rotation = 3.14159
+
+[node name="truba5" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 2751.61, 768.615 )
+rotation = -1.74846e-07
+
+[node name="truba42" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( -59.8105, 150 )
+rotation = 3.14159
+
+[node name="truba41" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( -54.1147, 710 )
+rotation = -1.74846e-07
+
+[node name="truba40" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 383.289, 66.0239 )
+rotation = 3.14159
+
+[node name="truba39" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 388.877, 649.875 )
+rotation = -1.74846e-07
+
+[node name="truba38" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 814.684, 190.784 )
+rotation = 3.14159
+
+[node name="truba37" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 819.231, 760.665 )
+rotation = -1.74846e-07
+
+[node name="truba12" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 3168.69, 108.544 )
+rotation = 3.14159
+
+[node name="truba11" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 3174.59, 678.425 )
+rotation = -1.74846e-07
+
+[node name="truba10" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 3615.85, 212.095 )
+rotation = 3.14159
+
+[node name="truba9" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 3622.98, 781.977 )
+rotation = -1.74846e-07
+
+[node name="truba8" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 4044.91, 220.446 )
+rotation = 3.14159
+
+[node name="truba7" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 4049.71, 791.62 )
+rotation = -1.74846e-07
+
+[node name="truba18" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 4429.1, 293.934 )
+rotation = 3.14159
+
+[node name="truba17" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 4433.77, 863.816 )
+rotation = -1.74846e-07
+
+[node name="truba16" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 4876.67, 97.4627 )
+rotation = 3.14159
+
+[node name="truba15" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 4878.36, 657.612 )
+rotation = -1.74846e-07
+
+[node name="truba14" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 5305.31, 192.053 )
+rotation = 3.14159
+
+[node name="truba13" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 5310.11, 763.227 )
+rotation = -1.74846e-07
+
+[node name="truba24" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 5689.5, 85.1615 )
+rotation = 3.14159
+
+[node name="truba23" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 5694.3, 656.335 )
+rotation = -1.74846e-07
+
+[node name="truba22" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 6136.66, 185.372 )
+rotation = 3.14159
+
+[node name="truba21" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 6141.45, 755.254 )
+rotation = -1.74846e-07
+
+[node name="truba20" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 6565.72, 151.969 )
+rotation = 3.14159
+
+[node name="truba19" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 6567.93, 721.85 )
+rotation = -1.74846e-07
+
+[node name="truba30" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 6992.5, 73.7 )
+rotation = 3.14159
+
+[node name="truba29" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 6997.56, 641.681 )
+rotation = -1.74846e-07
+
+[node name="truba28" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 7438.42, 10.4415 )
+rotation = 3.14159
+
+[node name="truba27" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 7444.71, 582.481 )
+rotation = -1.74846e-07
+
+[node name="truba26" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 7867.48, 107.145 )
+rotation = -3.14159
+
+[node name="truba25" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 7873.78, 663.394 )
+rotation = -6.28319
+
+[node name="truba36" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 8294.08, 212.893 )
+rotation = -3.14159
+
+[node name="truba35" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 8299.01, 798.679 )
+rotation = -6.28319
+
+[node name="truba34" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 8737.15, 60.4417 )
+rotation = -3.14159
+
+[node name="truba33" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 8743.44, 658.383 )
+rotation = -6.28319
+
+[node name="truba32" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 9170.29, 215.28 )
+rotation = -3.14159
+
+[node name="truba31" parent="trubas" instance=ExtResource( 5 )]
+position = Vector2( 9175.23, 815.38 )
+rotation = -6.28319
+
+[node name="truba_fix" parent="trubas" instance=ExtResource( 6 )]
+position = Vector2( 2319.35, 902.253 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix17" parent="trubas" instance=ExtResource( 6 )]
+position = Vector2( 386.843, 893.503 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix18" parent="trubas" instance=ExtResource( 6 )]
+position = Vector2( 810.849, -55.2098 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix2" parent="trubas" instance=ExtResource( 6 )]
+position = Vector2( 2741.14, -51.5503 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix3" parent="trubas" instance=ExtResource( 6 )]
+position = Vector2( 3171.33, 919.177 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix4" parent="trubas" instance=ExtResource( 6 )]
+position = Vector2( 3610.87, -37.9843 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix5" parent="trubas" instance=ExtResource( 6 )]
+position = Vector2( 4038.96, -31.9549 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix6" parent="trubas" instance=ExtResource( 6 )]
+position = Vector2( 4424.84, 38.8901 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix7" parent="trubas" instance=ExtResource( 6 )]
+position = Vector2( 4879.62, 863.405 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix8" parent="trubas" instance=ExtResource( 6 )]
+position = Vector2( 5299.1, -56.0723 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix9" parent="trubas" instance=ExtResource( 6 )]
+position = Vector2( 5691, 895.059 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix10" parent="trubas" instance=ExtResource( 6 )]
+position = Vector2( 6131.15, -63.6091 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix11" parent="trubas" instance=ExtResource( 6 )]
+position = Vector2( 6996.36, 886.015 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix12" parent="trubas" instance=ExtResource( 6 )]
+position = Vector2( 7444.04, 829.049 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix13" parent="trubas" instance=ExtResource( 6 )]
+position = Vector2( 7872.13, 905.611 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix14" parent="trubas" instance=ExtResource( 6 )]
+position = Vector2( 8288.15, -19.8963 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix15" parent="trubas" instance=ExtResource( 6 )]
+position = Vector2( 8740.35, 899.581 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix16" parent="trubas" instance=ExtResource( 6 )]
+position = Vector2( 9163.92, -4.82303 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="rock" type="Node2D" parent="."]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_1" type="Sprite" parent="rock"]
+position = Vector2( 265.962, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_2" type="Sprite" parent="rock"]
+position = Vector2( 814.682, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_4" type="Sprite" parent="rock"]
+position = Vector2( 1365.72, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_3" type="Sprite" parent="rock"]
+position = Vector2( 1914.44, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_8" type="Sprite" parent="rock"]
+position = Vector2( 2462.11, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_7" type="Sprite" parent="rock"]
+position = Vector2( 3010.83, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_6" type="Sprite" parent="rock"]
+position = Vector2( 3561.86, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_5" type="Sprite" parent="rock"]
+position = Vector2( 4110.58, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_12" type="Sprite" parent="rock"]
+position = Vector2( 4635.48, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_11" type="Sprite" parent="rock"]
+position = Vector2( 5184.2, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_10" type="Sprite" parent="rock"]
+position = Vector2( 5735.23, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_9" type="Sprite" parent="rock"]
+position = Vector2( 6283.95, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_16" type="Sprite" parent="rock"]
+position = Vector2( 6288.28, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_15" type="Sprite" parent="rock"]
+position = Vector2( 6837, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_14" type="Sprite" parent="rock"]
+position = Vector2( 7388.03, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_13" type="Sprite" parent="rock"]
+position = Vector2( 7936.75, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_32" type="Sprite" parent="rock"]
+position = Vector2( 8479.76, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_31" type="Sprite" parent="rock"]
+position = Vector2( 9028.48, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_30" type="Sprite" parent="rock"]
+position = Vector2( 9579.52, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_29" type="Sprite" parent="rock"]
+position = Vector2( 10128.2, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_28" type="Sprite" parent="rock"]
+position = Vector2( 10675.9, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_27" type="Sprite" parent="rock"]
+position = Vector2( 11224.6, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_26" type="Sprite" parent="rock"]
+position = Vector2( 11775.7, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_25" type="Sprite" parent="rock"]
+position = Vector2( 12324.4, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_24" type="Sprite" parent="rock"]
+position = Vector2( 12849.3, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_23" type="Sprite" parent="rock"]
+position = Vector2( 13398, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_22" type="Sprite" parent="rock"]
+position = Vector2( 13949, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_21" type="Sprite" parent="rock"]
+position = Vector2( 14497.8, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_20" type="Sprite" parent="rock"]
+position = Vector2( 14502.1, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_19" type="Sprite" parent="rock"]
+position = Vector2( 15050.8, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_18" type="Sprite" parent="rock"]
+position = Vector2( 15601.8, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_17" type="Sprite" parent="rock"]
+position = Vector2( 16150.6, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="ill" type="Node2D" parent="."]
+
+[node name="ill" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 2849.78, 766.683 )
+
+[node name="ill2" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 3214.77, 96.1538 )
+
+[node name="ill3" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 4055.5, 760.531 )
+
+[node name="ill4" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 3961.17, 309.411 )
+
+[node name="ill5" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 4447.15, 243.793 )
+
+[node name="ill6" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 4992.6, 828.199 )
+
+[node name="ill7" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 5396.55, 169.974 )
+
+[node name="ill8" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 5853.83, 709.267 )
+
+[node name="ill9" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 6653.54, 186.378 )
+
+[node name="ill10" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 7084.15, 764.632 )
+
+[node name="ill11" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 7024.69, 174.075 )
+
+[node name="ill12" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 8408.81, 77.6988 )
+
+[node name="ill13" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 8839.42, 795.39 )
+
+[node name="ill14" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 9577.62, 137.165 )
+
+[node name="ill16" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 9206.71, 168.073 )
+
+[node name="ill17" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 8792.54, 300.981 )
+
+[node name="ill18" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 8378.36, 591.523 )
+
+[node name="ill19" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 7905.46, 146.437 )
+
+[node name="ill20" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 7475.83, 322.617 )
+
+[node name="ill21" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 6633.55, 572.582 )
+
+[node name="ill15" parent="ill" instance=ExtResource( 10 )]
+position = Vector2( 10055.4, 795.39 )
+
+[node name="moun" type="Node2D" parent="."]
+
+[node name="moun" parent="moun" instance=ExtResource( 11 )]
+position = Vector2( 2750.17, 168.507 )
+rotation = 0.507714
+
+[node name="moun2" parent="moun" instance=ExtResource( 11 )]
+position = Vector2( 3232.67, 639.959 )
+rotation = -0.548599
+
+[node name="moun3" parent="moun" instance=ExtResource( 11 )]
+position = Vector2( 3678.34, 199.201 )
+
+[node name="moun4" parent="moun" instance=ExtResource( 11 )]
+position = Vector2( 4170.67, 207.795 )
+
+[node name="moun5" parent="moun" instance=ExtResource( 11 )]
+position = Vector2( 4707.19, 728.356 )
+
+[node name="moun6" parent="moun" instance=ExtResource( 11 )]
+position = Vector2( 5128.3, 275.321 )
+
+[node name="moun7" parent="moun" instance=ExtResource( 11 )]
+position = Vector2( 5397.18, 669.424 )
+
+[node name="moun8" parent="moun" instance=ExtResource( 11 )]
+position = Vector2( 5853.89, 134.131 )
+
+[node name="moun9" parent="moun" instance=ExtResource( 11 )]
+position = Vector2( 6234.49, 635.048 )
+
+[node name="moun10" parent="moun" instance=ExtResource( 11 )]
+position = Vector2( 6668.07, 748.491 )
+
+[node name="moun11" parent="moun" instance=ExtResource( 11 )]
+position = Vector2( 7098.45, 349.599 )
+
+[node name="moun12" parent="moun" instance=ExtResource( 11 )]
+position = Vector2( 7709.62, 626.024 )
+
+[node name="moun13" parent="moun" instance=ExtResource( 11 )]
+position = Vector2( 8161, 51.0131 )
+
+[node name="moun14" parent="moun" instance=ExtResource( 11 )]
+position = Vector2( 8576.22, 594.533 )
+
+[node name="moun15" parent="moun" instance=ExtResource( 11 )]
+position = Vector2( 9047.42, 292.448 )
+
+[node name="moun16" parent="moun" instance=ExtResource( 11 )]
+position = Vector2( 9475.47, 633.022 )
+
+[node name="moun17" parent="moun" instance=ExtResource( 11 )]
+position = Vector2( 9924.52, 235.297 )
+
+[node name="trubas2" type="Node2D" parent="."]
+position = Vector2( 12229.1, 0 )
+
+[node name="truba" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 1870.03, 151.969 )
+rotation = 3.14159
+
+[node name="truba2" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 1877.24, 723.85 )
+rotation = -1.74846e-07
+
+[node name="truba4" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 2317.18, 75.1404 )
+rotation = 3.14159
+
+[node name="truba3" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 2320.82, 657.825 )
+rotation = -1.74846e-07
+
+[node name="truba6" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 2746.24, 153.292 )
+rotation = 3.14159
+
+[node name="truba5" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 2751.61, 732.262 )
+rotation = -1.74846e-07
+
+[node name="truba42" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( -59.8105, 150 )
+rotation = 3.14159
+
+[node name="truba41" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( -54.1147, 710 )
+rotation = -1.74846e-07
+
+[node name="truba40" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 383.289, 66.0239 )
+rotation = 3.14159
+
+[node name="truba39" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 388.877, 649.875 )
+rotation = -1.74846e-07
+
+[node name="truba38" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 814.684, 190.784 )
+rotation = 3.14159
+
+[node name="truba37" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 819.231, 760.665 )
+rotation = -1.74846e-07
+
+[node name="truba12" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 3168.69, 108.544 )
+rotation = 3.14159
+
+[node name="truba11" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 3174.59, 678.425 )
+rotation = -1.74846e-07
+
+[node name="truba10" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 3615.85, 212.095 )
+rotation = 3.14159
+
+[node name="truba9" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 3622.98, 781.977 )
+rotation = -1.74846e-07
+
+[node name="truba8" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 4044.91, 220.446 )
+rotation = 3.14159
+
+[node name="truba7" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 4049.71, 791.62 )
+rotation = -1.74846e-07
+
+[node name="truba18" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 4429.1, 293.934 )
+rotation = 3.14159
+
+[node name="truba17" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 4433.77, 863.816 )
+rotation = -1.74846e-07
+
+[node name="truba16" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 4876.25, 152.797 )
+rotation = 3.14159
+
+[node name="truba15" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 4881.05, 753.508 )
+rotation = -1.74846e-07
+
+[node name="truba14" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 5305.31, 192.053 )
+rotation = 3.14159
+
+[node name="truba13" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 5310.11, 763.227 )
+rotation = -1.74846e-07
+
+[node name="truba24" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 5689.5, 112.426 )
+rotation = 3.14159
+
+[node name="truba23" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 5694.3, 699.505 )
+rotation = -1.74846e-07
+
+[node name="truba22" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 6136.66, 185.372 )
+rotation = 3.14159
+
+[node name="truba21" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 6141.45, 755.254 )
+rotation = -1.74846e-07
+
+[node name="truba20" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 6565.72, 151.969 )
+rotation = 3.14159
+
+[node name="truba19" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 6567.93, 721.85 )
+rotation = -1.74846e-07
+
+[node name="truba30" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 6992.5, 73.7 )
+rotation = 3.14159
+
+[node name="truba29" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 6997.56, 641.681 )
+rotation = -1.74846e-07
+
+[node name="truba28" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 7438.42, -0.281559 )
+rotation = 3.14159
+
+[node name="truba27" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 7444.71, 595.971 )
+rotation = -1.74846e-07
+
+[node name="truba26" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 7867.48, 65.383 )
+rotation = -3.14159
+
+[node name="truba25" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 7873.78, 663.394 )
+rotation = -6.28319
+
+[node name="truba36" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 8294.07, 176.055 )
+rotation = -3.14159
+
+[node name="truba35" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 8299.01, 768.791 )
+rotation = -6.28319
+
+[node name="truba34" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 8737.15, 88.5018 )
+rotation = -3.14159
+
+[node name="truba33" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 8743.44, 704.094 )
+rotation = -6.28319
+
+[node name="truba32" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 9170.29, 199.789 )
+rotation = -3.14159
+
+[node name="truba31" parent="trubas2" instance=ExtResource( 5 )]
+position = Vector2( 9175.23, 815.38 )
+rotation = -6.28319
+
+[node name="truba_fix" parent="trubas2" instance=ExtResource( 6 )]
+position = Vector2( 2319.35, 902.253 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix17" parent="trubas2" instance=ExtResource( 6 )]
+position = Vector2( 386.843, 893.503 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix18" parent="trubas2" instance=ExtResource( 6 )]
+position = Vector2( 810.849, -55.2098 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix2" parent="trubas2" instance=ExtResource( 6 )]
+position = Vector2( 2741.14, -51.5503 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix3" parent="trubas2" instance=ExtResource( 6 )]
+position = Vector2( 3171.33, 919.177 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix4" parent="trubas2" instance=ExtResource( 6 )]
+position = Vector2( 3610.87, -37.9843 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix5" parent="trubas2" instance=ExtResource( 6 )]
+position = Vector2( 4038.96, -31.9549 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix6" parent="trubas2" instance=ExtResource( 6 )]
+position = Vector2( 4424.84, 38.8901 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix7" parent="trubas2" instance=ExtResource( 6 )]
+position = Vector2( 4879.62, 863.405 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix8" parent="trubas2" instance=ExtResource( 6 )]
+position = Vector2( 5299.1, -56.0723 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix9" parent="trubas2" instance=ExtResource( 6 )]
+position = Vector2( 5691, 895.059 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix10" parent="trubas2" instance=ExtResource( 6 )]
+position = Vector2( 6131.15, -63.6091 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix11" parent="trubas2" instance=ExtResource( 6 )]
+position = Vector2( 6996.36, 886.015 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix12" parent="trubas2" instance=ExtResource( 6 )]
+position = Vector2( 7444.04, 788.038 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix13" parent="trubas2" instance=ExtResource( 6 )]
+position = Vector2( 7872.13, 905.611 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix14" parent="trubas2" instance=ExtResource( 6 )]
+position = Vector2( 8288.15, -19.8963 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix15" parent="trubas2" instance=ExtResource( 6 )]
+position = Vector2( 8740.35, 899.581 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix16" parent="trubas2" instance=ExtResource( 6 )]
+position = Vector2( 9163.92, -4.82303 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="rock2" type="Node2D" parent="."]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_1" type="Sprite" parent="rock2"]
+position = Vector2( 265.962, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_2" type="Sprite" parent="rock2"]
+position = Vector2( 814.682, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_4" type="Sprite" parent="rock2"]
+position = Vector2( 1365.72, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_3" type="Sprite" parent="rock2"]
+position = Vector2( 1914.44, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_8" type="Sprite" parent="rock2"]
+position = Vector2( 2462.11, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_7" type="Sprite" parent="rock2"]
+position = Vector2( 3010.83, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_6" type="Sprite" parent="rock2"]
+position = Vector2( 3561.86, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_5" type="Sprite" parent="rock2"]
+position = Vector2( 4110.58, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_12" type="Sprite" parent="rock2"]
+position = Vector2( 4635.48, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_11" type="Sprite" parent="rock2"]
+position = Vector2( 5184.2, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_10" type="Sprite" parent="rock2"]
+position = Vector2( 5735.23, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_9" type="Sprite" parent="rock2"]
+position = Vector2( 6283.95, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_16" type="Sprite" parent="rock2"]
+position = Vector2( 6288.28, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_15" type="Sprite" parent="rock2"]
+position = Vector2( 6837, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_14" type="Sprite" parent="rock2"]
+position = Vector2( 7388.03, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_13" type="Sprite" parent="rock2"]
+position = Vector2( 7936.75, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_32" type="Sprite" parent="rock2"]
+position = Vector2( 8479.76, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_31" type="Sprite" parent="rock2"]
+position = Vector2( 9028.48, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_30" type="Sprite" parent="rock2"]
+position = Vector2( 9579.52, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_29" type="Sprite" parent="rock2"]
+position = Vector2( 10128.2, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_28" type="Sprite" parent="rock2"]
+position = Vector2( 10675.9, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_27" type="Sprite" parent="rock2"]
+position = Vector2( 11224.6, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_26" type="Sprite" parent="rock2"]
+position = Vector2( 11775.7, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_25" type="Sprite" parent="rock2"]
+position = Vector2( 12324.4, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_24" type="Sprite" parent="rock2"]
+position = Vector2( 12849.3, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_23" type="Sprite" parent="rock2"]
+position = Vector2( 13398, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_22" type="Sprite" parent="rock2"]
+position = Vector2( 13949, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_21" type="Sprite" parent="rock2"]
+position = Vector2( 14497.8, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_20" type="Sprite" parent="rock2"]
+position = Vector2( 14502.1, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_19" type="Sprite" parent="rock2"]
+position = Vector2( 15050.8, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_18" type="Sprite" parent="rock2"]
+position = Vector2( 15601.8, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_17" type="Sprite" parent="rock2"]
+position = Vector2( 16150.6, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="ill2" type="Node2D" parent="."]
+position = Vector2( 11515, 0 )
+
+[node name="ill" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 2849.78, 766.683 )
+
+[node name="ill2" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 3214.77, 96.1538 )
+
+[node name="ill3" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 4055.5, 760.531 )
+
+[node name="ill4" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 3961.17, 309.411 )
+
+[node name="ill5" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 4447.15, 243.793 )
+
+[node name="ill6" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 4992.6, 828.199 )
+
+[node name="ill7" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 5396.55, 169.974 )
+
+[node name="ill8" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 5853.83, 709.267 )
+
+[node name="ill9" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 6653.54, 186.378 )
+
+[node name="ill10" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 7084.15, 764.632 )
+
+[node name="ill11" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 7024.69, 174.075 )
+
+[node name="ill12" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 8408.81, 77.6988 )
+
+[node name="ill13" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 8839.42, 795.39 )
+
+[node name="ill14" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 9577.62, 137.165 )
+
+[node name="ill16" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 9206.71, 168.073 )
+
+[node name="ill17" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 8792.54, 300.981 )
+
+[node name="ill18" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 8378.36, 591.523 )
+
+[node name="ill19" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 7905.46, 146.437 )
+
+[node name="ill20" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 7475.83, 322.617 )
+
+[node name="ill21" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 6633.55, 572.582 )
+
+[node name="ill15" parent="ill2" instance=ExtResource( 10 )]
+position = Vector2( 10055.4, 795.39 )
+
+[node name="moun2" type="Node2D" parent="."]
+position = Vector2( 11515, 0 )
+
+[node name="moun" parent="moun2" instance=ExtResource( 11 )]
+position = Vector2( 2750.17, 168.507 )
+rotation = 0.507714
+
+[node name="moun2" parent="moun2" instance=ExtResource( 11 )]
+position = Vector2( 3232.67, 639.959 )
+rotation = -0.548599
+
+[node name="moun3" parent="moun2" instance=ExtResource( 11 )]
+position = Vector2( 3678.34, 199.201 )
+
+[node name="moun4" parent="moun2" instance=ExtResource( 11 )]
+position = Vector2( 4170.67, 207.795 )
+
+[node name="moun5" parent="moun2" instance=ExtResource( 11 )]
+position = Vector2( 4707.19, 728.356 )
+
+[node name="moun6" parent="moun2" instance=ExtResource( 11 )]
+position = Vector2( 5128.3, 275.321 )
+
+[node name="moun7" parent="moun2" instance=ExtResource( 11 )]
+position = Vector2( 5397.18, 669.424 )
+
+[node name="moun8" parent="moun2" instance=ExtResource( 11 )]
+position = Vector2( 5853.89, 134.131 )
+
+[node name="moun9" parent="moun2" instance=ExtResource( 11 )]
+position = Vector2( 6234.49, 635.048 )
+
+[node name="moun10" parent="moun2" instance=ExtResource( 11 )]
+position = Vector2( 6668.07, 748.491 )
+
+[node name="moun11" parent="moun2" instance=ExtResource( 11 )]
+position = Vector2( 7098.45, 349.599 )
+
+[node name="moun12" parent="moun2" instance=ExtResource( 11 )]
+position = Vector2( 7709.62, 626.024 )
+
+[node name="moun13" parent="moun2" instance=ExtResource( 11 )]
+position = Vector2( 8161, 51.0131 )
+
+[node name="moun14" parent="moun2" instance=ExtResource( 11 )]
+position = Vector2( 8576.22, 594.533 )
+
+[node name="moun15" parent="moun2" instance=ExtResource( 11 )]
+position = Vector2( 9047.42, 292.448 )
+
+[node name="moun16" parent="moun2" instance=ExtResource( 11 )]
+position = Vector2( 9475.47, 633.022 )
+
+[node name="moun17" parent="moun2" instance=ExtResource( 11 )]
+position = Vector2( 9924.52, 235.297 )
+
+[node name="trubas3" type="Node2D" parent="."]
+position = Vector2( 22123.2, 0 )
+
+[node name="truba" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 1870.03, 151.969 )
+rotation = 3.14159
+
+[node name="truba2" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 1877.24, 723.85 )
+rotation = -1.74846e-07
+
+[node name="truba4" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 2317.18, 75.1404 )
+rotation = 3.14159
+
+[node name="truba3" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 2320.82, 657.825 )
+rotation = -1.74846e-07
+
+[node name="truba6" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 2746.24, 153.292 )
+rotation = 3.14159
+
+[node name="truba5" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 2751.61, 732.262 )
+rotation = -1.74846e-07
+
+[node name="truba42" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( -59.8105, 150 )
+rotation = 3.14159
+
+[node name="truba41" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( -54.1147, 710 )
+rotation = -1.74846e-07
+
+[node name="truba40" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 383.289, 66.0239 )
+rotation = 3.14159
+
+[node name="truba39" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 388.877, 649.875 )
+rotation = -1.74846e-07
+
+[node name="truba38" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 814.684, 190.784 )
+rotation = 3.14159
+
+[node name="truba37" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 819.231, 760.665 )
+rotation = -1.74846e-07
+
+[node name="truba12" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 3168.69, 108.544 )
+rotation = 3.14159
+
+[node name="truba11" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 3174.59, 678.425 )
+rotation = -1.74846e-07
+
+[node name="truba10" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 3615.85, 212.095 )
+rotation = 3.14159
+
+[node name="truba9" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 3622.98, 781.977 )
+rotation = -1.74846e-07
+
+[node name="truba8" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 4044.91, 220.446 )
+rotation = 3.14159
+
+[node name="truba7" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 4049.71, 791.62 )
+rotation = -1.74846e-07
+
+[node name="truba18" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 4429.1, 293.934 )
+rotation = 3.14159
+
+[node name="truba17" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 4433.77, 863.816 )
+rotation = -1.74846e-07
+
+[node name="truba16" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 4876.25, 152.797 )
+rotation = 3.14159
+
+[node name="truba15" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 4881.05, 753.508 )
+rotation = -1.74846e-07
+
+[node name="truba14" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 5305.31, 192.053 )
+rotation = 3.14159
+
+[node name="truba13" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 5310.11, 763.227 )
+rotation = -1.74846e-07
+
+[node name="truba24" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 5689.5, 112.426 )
+rotation = 3.14159
+
+[node name="truba23" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 5694.3, 699.505 )
+rotation = -1.74846e-07
+
+[node name="truba22" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 6136.66, 185.372 )
+rotation = 3.14159
+
+[node name="truba21" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 6141.45, 755.254 )
+rotation = -1.74846e-07
+
+[node name="truba20" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 6565.72, 151.969 )
+rotation = 3.14159
+
+[node name="truba19" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 6567.93, 721.85 )
+rotation = -1.74846e-07
+
+[node name="truba30" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 6992.5, 73.7 )
+rotation = 3.14159
+
+[node name="truba29" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 6997.56, 641.681 )
+rotation = -1.74846e-07
+
+[node name="truba28" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 7438.42, -0.281559 )
+rotation = 3.14159
+
+[node name="truba27" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 7444.71, 595.971 )
+rotation = -1.74846e-07
+
+[node name="truba26" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 7867.48, 65.383 )
+rotation = -3.14159
+
+[node name="truba25" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 7873.78, 663.394 )
+rotation = -6.28319
+
+[node name="truba36" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 8294.07, 176.055 )
+rotation = -3.14159
+
+[node name="truba35" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 8299.01, 768.791 )
+rotation = -6.28319
+
+[node name="truba34" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 8737.15, 88.5018 )
+rotation = -3.14159
+
+[node name="truba33" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 8743.44, 704.094 )
+rotation = -6.28319
+
+[node name="truba32" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 9170.29, 199.789 )
+rotation = -3.14159
+
+[node name="truba31" parent="trubas3" instance=ExtResource( 5 )]
+position = Vector2( 9175.23, 815.38 )
+rotation = -6.28319
+
+[node name="truba_fix" parent="trubas3" instance=ExtResource( 6 )]
+position = Vector2( 2319.35, 902.253 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix17" parent="trubas3" instance=ExtResource( 6 )]
+position = Vector2( 386.843, 893.503 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix18" parent="trubas3" instance=ExtResource( 6 )]
+position = Vector2( 810.849, -55.2098 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix2" parent="trubas3" instance=ExtResource( 6 )]
+position = Vector2( 2741.14, -51.5503 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix3" parent="trubas3" instance=ExtResource( 6 )]
+position = Vector2( 3171.33, 919.177 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix4" parent="trubas3" instance=ExtResource( 6 )]
+position = Vector2( 3610.87, -37.9843 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix5" parent="trubas3" instance=ExtResource( 6 )]
+position = Vector2( 4038.96, -31.9549 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix6" parent="trubas3" instance=ExtResource( 6 )]
+position = Vector2( 4424.84, 38.8901 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix7" parent="trubas3" instance=ExtResource( 6 )]
+position = Vector2( 4879.62, 863.405 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix8" parent="trubas3" instance=ExtResource( 6 )]
+position = Vector2( 5299.1, -56.0723 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix9" parent="trubas3" instance=ExtResource( 6 )]
+position = Vector2( 5691, 895.059 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix10" parent="trubas3" instance=ExtResource( 6 )]
+position = Vector2( 6131.15, -63.6091 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix11" parent="trubas3" instance=ExtResource( 6 )]
+position = Vector2( 6996.36, 886.015 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix12" parent="trubas3" instance=ExtResource( 6 )]
+position = Vector2( 7444.04, 788.038 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix13" parent="trubas3" instance=ExtResource( 6 )]
+position = Vector2( 7872.13, 905.611 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix14" parent="trubas3" instance=ExtResource( 6 )]
+position = Vector2( 8288.15, -19.8963 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix15" parent="trubas3" instance=ExtResource( 6 )]
+position = Vector2( 8740.35, 899.581 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="truba_fix16" parent="trubas3" instance=ExtResource( 6 )]
+position = Vector2( 9163.92, -4.82303 )
+scale = Vector2( 1.91448, 1.86539 )
+
+[node name="rock3" type="Node2D" parent="."]
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_1" type="Sprite" parent="rock3"]
+position = Vector2( 265.962, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_2" type="Sprite" parent="rock3"]
+position = Vector2( 814.682, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_4" type="Sprite" parent="rock3"]
+position = Vector2( 1365.72, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_3" type="Sprite" parent="rock3"]
+position = Vector2( 1914.44, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_8" type="Sprite" parent="rock3"]
+position = Vector2( 2462.11, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_7" type="Sprite" parent="rock3"]
+position = Vector2( 3010.83, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_6" type="Sprite" parent="rock3"]
+position = Vector2( 3561.86, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_5" type="Sprite" parent="rock3"]
+position = Vector2( 4110.58, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_12" type="Sprite" parent="rock3"]
+position = Vector2( 4635.48, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_11" type="Sprite" parent="rock3"]
+position = Vector2( 5184.2, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_10" type="Sprite" parent="rock3"]
+position = Vector2( 5735.23, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_9" type="Sprite" parent="rock3"]
+position = Vector2( 6283.95, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_16" type="Sprite" parent="rock3"]
+position = Vector2( 6288.28, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_15" type="Sprite" parent="rock3"]
+position = Vector2( 6837, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_14" type="Sprite" parent="rock3"]
+position = Vector2( 7388.03, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_13" type="Sprite" parent="rock3"]
+position = Vector2( 7936.75, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_32" type="Sprite" parent="rock3"]
+position = Vector2( 8479.76, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_31" type="Sprite" parent="rock3"]
+position = Vector2( 9028.48, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_30" type="Sprite" parent="rock3"]
+position = Vector2( 9579.52, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_29" type="Sprite" parent="rock3"]
+position = Vector2( 10128.2, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_28" type="Sprite" parent="rock3"]
+position = Vector2( 10675.9, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_27" type="Sprite" parent="rock3"]
+position = Vector2( 11224.6, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_26" type="Sprite" parent="rock3"]
+position = Vector2( 11775.7, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_25" type="Sprite" parent="rock3"]
+position = Vector2( 12324.4, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_24" type="Sprite" parent="rock3"]
+position = Vector2( 12849.3, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_23" type="Sprite" parent="rock3"]
+position = Vector2( 13398, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_22" type="Sprite" parent="rock3"]
+position = Vector2( 13949, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_21" type="Sprite" parent="rock3"]
+position = Vector2( 14497.8, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_20" type="Sprite" parent="rock3"]
+position = Vector2( 14502.1, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_19" type="Sprite" parent="rock3"]
+position = Vector2( 15050.8, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_18" type="Sprite" parent="rock3"]
+position = Vector2( 15601.8, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="rock_17" type="Sprite" parent="rock3"]
+position = Vector2( 16150.6, 493.852 )
+scale = Vector2( 0.510227, 0.510227 )
+texture = ExtResource( 7 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="ill3" type="Node2D" parent="."]
+position = Vector2( 21409, 0 )
+
+[node name="ill" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 2849.78, 766.683 )
+
+[node name="ill2" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 3214.77, 96.1538 )
+
+[node name="ill3" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 4055.5, 760.531 )
+
+[node name="ill4" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 3961.17, 309.411 )
+
+[node name="ill5" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 4447.15, 243.793 )
+
+[node name="ill6" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 4992.6, 828.199 )
+
+[node name="ill7" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 5396.55, 169.974 )
+
+[node name="ill8" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 5853.83, 709.267 )
+
+[node name="ill9" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 6653.54, 186.378 )
+
+[node name="ill10" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 7084.15, 764.632 )
+
+[node name="ill11" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 7024.69, 174.075 )
+
+[node name="ill12" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 8408.81, 77.6988 )
+
+[node name="ill13" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 8839.42, 795.39 )
+
+[node name="ill14" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 9577.62, 137.165 )
+
+[node name="ill16" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 9206.71, 168.073 )
+
+[node name="ill17" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 8792.54, 300.981 )
+
+[node name="ill18" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 8378.36, 591.523 )
+
+[node name="ill19" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 7905.46, 146.437 )
+
+[node name="ill20" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 7475.83, 322.617 )
+
+[node name="ill21" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 6633.55, 572.582 )
+
+[node name="ill15" parent="ill3" instance=ExtResource( 10 )]
+position = Vector2( 10055.4, 795.39 )
+
+[node name="moun3" type="Node2D" parent="."]
+position = Vector2( 21409, 0 )
+
+[node name="moun" parent="moun3" instance=ExtResource( 11 )]
+position = Vector2( 2750.17, 168.507 )
+rotation = 0.507714
+
+[node name="moun2" parent="moun3" instance=ExtResource( 11 )]
+position = Vector2( 3232.67, 639.959 )
+rotation = -0.548599
+
+[node name="moun3" parent="moun3" instance=ExtResource( 11 )]
+position = Vector2( 3678.34, 199.201 )
+
+[node name="moun4" parent="moun3" instance=ExtResource( 11 )]
+position = Vector2( 4170.67, 207.795 )
+
+[node name="moun5" parent="moun3" instance=ExtResource( 11 )]
+position = Vector2( 4707.19, 728.356 )
+
+[node name="moun6" parent="moun3" instance=ExtResource( 11 )]
+position = Vector2( 5128.3, 275.321 )
+
+[node name="moun7" parent="moun3" instance=ExtResource( 11 )]
+position = Vector2( 5397.18, 669.424 )
+
+[node name="moun8" parent="moun3" instance=ExtResource( 11 )]
+position = Vector2( 5853.89, 134.131 )
+
+[node name="moun9" parent="moun3" instance=ExtResource( 11 )]
+position = Vector2( 6234.49, 635.048 )
+
+[node name="moun10" parent="moun3" instance=ExtResource( 11 )]
+position = Vector2( 6668.07, 748.491 )
+
+[node name="moun11" parent="moun3" instance=ExtResource( 11 )]
+position = Vector2( 7098.45, 349.599 )
+
+[node name="moun12" parent="moun3" instance=ExtResource( 11 )]
+position = Vector2( 7709.62, 626.024 )
+
+[node name="moun13" parent="moun3" instance=ExtResource( 11 )]
+position = Vector2( 8161, 51.0131 )
+
+[node name="moun14" parent="moun3" instance=ExtResource( 11 )]
+position = Vector2( 8576.22, 594.533 )
+
+[node name="moun15" parent="moun3" instance=ExtResource( 11 )]
+position = Vector2( 9047.42, 292.448 )
+
+[node name="moun16" parent="moun3" instance=ExtResource( 11 )]
+position = Vector2( 9475.47, 633.022 )
+
+[node name="moun17" parent="moun3" instance=ExtResource( 11 )]
+position = Vector2( 9924.52, 235.297 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+margin_left = 8.92951
+margin_top = 57.032
+margin_right = 28.9295
+margin_bottom = 71.032
+rect_scale = Vector2( 3, 3 )
+text = "0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text" type="Label" parent="CanvasLayer"]
+margin_left = 112.861
+margin_top = 16.1437
+margin_right = 132.861
+margin_bottom = 30.1437
+rect_scale = Vector2( 3, 3 )
+text = "0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="text2" type="Label" parent="CanvasLayer"]
+margin_left = 9.74034
+margin_top = 14.0106
+margin_right = 41.7403
+margin_bottom = 28.0106
+rect_scale = Vector2( 3, 3 )
+text = "best:"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="bird" parent="." instance=ExtResource( 2 )]
+position = Vector2( 67.4039, 465.796 )
+scale = Vector2( 1.38406, 1.38406 )
+
+[node name="doritos" parent="." instance=ExtResource( 4 )]
+position = Vector2( 414.489, 474.091 )
+scale = Vector2( -2.79752, -2.79752 )
+
+[node name="CanvasModulate" type="CanvasModulate" parent="."]
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+visible = false
+frames = SubResource( 1 )
+playing = true
+
+[node name="snoop" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 9 )
+
+[node name="doritos2" parent="." instance=ExtResource( 12 )]
+position = Vector2( 11155.5, 383.599 )
+scale = Vector2( 2.14223, 2.14223 )
+[connection signal="animation_finished" from="AnimatedSprite" to="." method="_on_AnimatedSprite_animation_finished"]

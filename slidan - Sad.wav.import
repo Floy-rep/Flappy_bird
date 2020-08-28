@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/slidan - Sad.wav-fe8fcd1f5496a7d727b219b295e11091.sample"
+
+[deps]
+
+source_file="res://slidan - Sad.wav"
+dest_files=[ "res://.import/slidan - Sad.wav-fe8fcd1f5496a7d727b219b295e11091.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
